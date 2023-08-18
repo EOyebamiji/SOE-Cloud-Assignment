@@ -1,2 +1,2 @@
 # SOE-Cloud-Assignment
-AltSchool SOE-Cloud Assignment Repo
+This repository contains the assignments for the SOE  Cloud Assignments project
