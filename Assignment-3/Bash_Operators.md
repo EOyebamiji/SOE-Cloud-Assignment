@@ -7,8 +7,8 @@
    - `*` (Multiplication): Multiplies two values.
    - `/` (Division): Divides the first value by the second.
    - `%` (Modulus): Returns the remainder of the division.
-   - (++) Increment Operator: Increases the value of operand by one.
-   - (--) Decrement Operator: Decreases the value of operand by one.
+   - `(++)` Increment Operator: Increases the value of operand by one.
+   - `(--)` Decrement Operator: Decreases the value of operand by one.
 
 2. **Assignment Operator**:
    - `=` (Assignment): Assigns a value to a variable. For example, `x=10` assigns the value 10 to the variable `x`.
