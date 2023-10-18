@@ -1,0 +1,5 @@
+playbook.yaml
+playbook[1].yaml
+shared_folder
+*.vagrant
+*.vagrant/machines

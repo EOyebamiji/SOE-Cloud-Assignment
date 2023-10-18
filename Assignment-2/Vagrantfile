@@ -21,7 +21,7 @@ Vagrant.configure("2") do |config|
       sudo apt-get update
 
       # create the altschool user
-      sudo useradd -m -p "$1$XQb..R7/$iXktVCR1.UfAlmkiWMAR/1" -s /bin/bash altschool
+      sudo useradd -m -p "$1$RfuWUTGz$jvonROMYOx0eJiM2yx87A." -s /bin/bash altschool
 
       # grant the altschool user sudo privileges
       sudo usermod -aG sudo altschool
@@ -69,7 +69,7 @@ Vagrant.configure("2") do |config|
       sudo systemctl start nginx
       sudo systemctl enable nginx
 
-      # configure nginx as a loadbalancer for the master nad slave nodes
+      # configure nginx as a loadbalancer for the master and slave nodes
       sudo rm /etc/nginx/sites-enabled/default
       
       # create a new nginx configuration file
