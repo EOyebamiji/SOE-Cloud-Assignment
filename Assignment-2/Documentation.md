@@ -79,6 +79,13 @@ After defining the configurations and provisioning scripts, the script concludes
 
 Once the Vagrant environment is up and running, you can access the master node and slave node via SSH using `vagrant ssh master` and `vagrant ssh slave`. You can test the configuration, the load balancing, and the web server functionality as per your requirements.
 
+![Apache](assets/Apache%20Confirmation.png)
+
+![Vagrant](assets/Vagrant%20Master-Slave%20Confirmation.png)
+
+
+
+
 **Note:**
 
 - Make sure that you have an active internet connection when executing the script as it requires downloading the base box image for the virtual machines.

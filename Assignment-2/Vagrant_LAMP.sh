@@ -66,7 +66,7 @@ Vagrant.configure("2") do |config|
       sudo systemctl start mysql
       sudo systemctl enable mysql
 
-      # create a sample php file for validation of amp stack
+      # create a sample php file for validation of LAMP stack
       echo "<?php phpinfo(); ?>" > /var/www/html/info.php
 
       # install nginx
@@ -157,7 +157,7 @@ Vagrant.configure("2") do |config|
       sudo systemctl start mysql
       sudo systemctl enable mysql
 
-      # create a sample php file for validation of amp stack
+      # create a sample php file for validation of LAMP stack
       echo "<?php phpinfo(); ?>" > /var/www/html/info.php
     SHELL
   end
